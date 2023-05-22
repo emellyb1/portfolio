@@ -1,0 +1,170 @@
+
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+  
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.6rem;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  margin: 20px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr {
+    border-style: dotted;
+    border-bottom: none;
+    border-left: none;
+    border-width: thick;
+    width: 4%;
+    color: #EAF6F6;
+    margin: 80px auto;
+  }
+
+p {
+  margin-bottom: 0;
+    line-height: 2;
+}
+/***************************** TOP DIV ***********************/
+.top {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+  
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottomCloud {
+  position: absolute;
+  bottom: 300px;
+  left: 250px;
+  
+}
+
+/***************************** MIDDLE DIV ***********************/
+.middle {
+  margin: 50px 0 0 0;
+}
+
+.profile-pic {
+  width:350px;
+}
+
+.bio{
+  text-align: center;
+  width: 40%;
+  margin: auto;
+
+}
+
+.experience-row {
+  margin: 80px auto;
+  width: 50%;
+  text-align: center;
+}
+
+.experience h3 {
+  font-size: 25px;
+}
+
+.techSkillsList {
+  display: inline-block;
+  margin: 0;
+  text-align: left;
+}
+
+li {
+  margin: 10px;
+}
+
+.resume h3 {
+  text-align: center;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.pencil {
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+  padding-top: 40px;
+}
+
+.clock {
+  width: 150px;
+  float: right;
+  margin-left: 30px;
+}
+
+.middle-questions{
+  font-weight: 900;
+}
+
+.paragraph-contact{
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+
+.portfolio {
+  display: flex;
+}
+
+
+.card img {
+  width: 35%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  align-items:flex-start;
+  margin-top: 5%;
+  
+}
+
+/***************************** BOTTOM DIV ***********************/
+
+.bottom {
+  margin-top: 60px;
+  margin-bottom: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #66BFBF;
+}
+
